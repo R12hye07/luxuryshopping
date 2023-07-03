@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px 20px;
+}
+
+.logo {
+  font-weight: 300;
+}
+
+.logo2 img{
+  width: 60%;
+  height: auto;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+.logo2 img:hover{
+  opacity: calc(20%);
+}
+
+.navigation {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.navigation a {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 25px;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.navigation a:hover {
+  color: goldenrod;
+}
+
+.container {
+  width: 80%;
+  margin: 70px auto 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.new_arrival {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.title-wrapper {
+  display: flex;
+  flex-direction: column; 
+}
+
+.new_arrival .title {
+  line-height: 1;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.new_arrival .subtitle {
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  color: #c8ad78;
+  text-align: left;
+}
+
+.thumb-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.thumb-unit {
+  width: 20%;
+  margin: 0.5% 0.5% 20px 0.5%;
+  padding: 15px 20px;
+  border: 1px solid #c8ad78;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all ease-in-out 0.3s;
+}
+
+.thumb-unit:hover {
+  border: none;
+  box-shadow: 0px 3px 30px rgba(0, 0, 0, 0.4);
+  transform: scale(1.1);
+  background: #c8ad78;
+}
+
+.thumb-unit:nth-child(1) .box {
+  background-image: url(https://source.unsplash.com/random/300x300/?dress);
+}
+
+.thumb-unit:nth-child(2) .box {
+  background-image: url(https://source.unsplash.com/random/300x300/?watch);
+}
+
+.thumb-unit:nth-child(3) .box {
+  background-image: url(https://source.unsplash.com/random/300x300/?bag);
+}
+
+.thumb-unit:nth-child(4) .box {
+  background-image: url(https://source.unsplash.com/random/300x300/?suit);
+}
+
+.thumb-unit:nth-child(5) .box {
+  background-image: url(https://source.unsplash.com/random/300x300/?shoes);
+}
+
+.thumb-unit:nth-child(6) .box {
+  background-image: url(https://source.unsplash.com/random/300x300/?sneakers);
+}
+
+.thumb-unit:nth-child(7) .box {
+  background-image: url(https://source.unsplash.com/random/300x300/?skirt);
+}
+
+.thumb-unit:nth-child(8) .box {
+  background-image: url(https://source.unsplash.com/random/300x300/?pants);
+}
+
+
+.thumb-unit .heading span {
+  font-size: 20px;
+  color: #c8ad78;
+  font-weight: 700;
+  transition: all ease-in-out 0.3s;
+}
+.thumb-unit:hover .heading span {
+  color: black;
+
+}
+
+.thumb-unit .box {
+  width: 100%;
+  margin: 10px 0;
+  transition: all ease-in-out 0.3s;
+  background-size: 85%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.thumb-unit .box:before {
+  content: "";
+  display: block;
+  padding-top: 100%;
+}
+
+.thumb-unit .info {
+  display: flex;
+  justify-content: space-between;
+  line-height: 1.2;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.page-number {
+  text-decoration: none;
+  margin: 0 5px;
+  padding: 5px 10px;
+  border: 1px solid #c8ad78;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.page-number:hover {
+  background: #c8ad78;
+  color: white;
+}
+
+footer {
+  margin-top: 50px;
+  margin-bottom: 200px;
+}
+.social_link {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-right: 45px;
+}
+
+.social_link li {
+  width: 50px;
+  height: 50px;
+}
+
+.social_link a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  border: 1px solid #c8ad78;
+  transition: 0.3s;
+}
+
+.social_link a:hover {
+  background: #c8ad78;
+}
+
+.social_link img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.social_link img:hover{
+  opacity: 0.4;
+}

@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+* {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+body {
+  background-color: #f1f1f1;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+.header {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  color: goldenrod;
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
+
+
+.header img {
+  width: 30%;
+  height: auto;
+  transition: 0.3s;
+}
+
+.header img:hover {
+  opacity: 0.2;
+}
+
+.notice-page {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .notice-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .notice-item {
+    padding: 20px;
+    border: 1px solid goldenrod;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+    margin-bottom: 20px;
+  }
+
+  .notice-item:hover {
+    border: none;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(-10px);
+  }
+
+.notice-title {
+  font-size: 20px;
+  color: goldenrod;
+  margin-bottom: 10px;
+}
+
+.notice-author {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 5px;
+}
+
+.notice-content {
+  font-size: 16px;
+  color: #555;
+}
+
+.footer {
+    text-decoration: none;
+}
+
+.footer a {
+    color: goldenrod;
+    font-weight: bold;
+  }
+  
+  .footer a:hover {
+    color: goldenrod;
+    opacity: 0.8;
+  }
+  
+
+  /* 왜 footer에 text-decoration: none;이 적용되지 않는 건지 모르겠습니다... */

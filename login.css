@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+* {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+body{
+	background-color: #f1f1f1;
+}
+  .container {
+	max-width: 400px;
+	margin: 0 auto;
+	padding: 40px;
+	background-color: #fff;
+	border-radius: 4px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+	text-align: center;
+	font-size: 28px;
+	font-weight: bold;
+	color: #333;
+	margin-bottom: 20px;
+	transition: 0.5s;
+  }
+
+  .logo a{
+	text-decoration: none;
+	color: goldenrod;
+	transition: 0.5s;
+  }
+
+  .logo a:hover{
+	opacity: 0.2;
+	font-size:35px;
+  }
+
+  .logo img{
+	width: 60%;
+	height: auto;
+	margin-top: 20px;
+	transition: 0.3s;
+  }
+
+  .logo img:hover{
+	opacity: 0.2;
+  }
+
+  .login-form {
+	margin-bottom: 20px;
+  }
+  
+  .form-title {
+	font-size: 20px;
+	font-weight: bold;
+	color: #333;
+	margin-bottom: 20px;
+  }
+  
+  .form-group {
+	margin-bottom: 20px;
+  }
+  
+  label {
+	display: block;
+	font-weight: bold;
+	color: goldenrod;
+	margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid goldenrod;
+	border-radius: 4px;
+	box-sizing: border-box;
+  }
+  
+  button {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	background-color: goldenrod;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: 0.3s;
+  }
+  
+  button:hover {
+	background-color: #555;
+  }
+  
+  .footer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.footer a {
+  margin-right: 10px;
+  color: #555;
+  text-decoration: none;
+}

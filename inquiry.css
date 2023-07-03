@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+
+  body{
+    background-color: #f1f1f1;
+  }
+  
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .logo {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .logo a {
+    text-decoration: none;
+    color: goldenrod;
+    transition: 0.3s;
+  }
+
+  .logo a:hover{
+    color: #555;
+  }
+
+  .logo img{
+    width: 60%;
+    margin-top: 10px;
+    transition: 0.3s;
+  }
+  
+  .logo img:hover{
+    opacity: 0.2;
+  }
+
+  .inquiry-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .form-title {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 40px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid goldenrod;
+    border-radius: 5px;
+  }
+
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid goldenrod;
+    border-radius: 5px;
+    resize: none;
+  }
+  
+  button {
+    background-color: goldenrod;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
